@@ -1,0 +1,105 @@
+.Navbar {
+    background-color:rgba(15, 138, 138, 0.87);
+    height:80px;
+    width:100%;
+    position:fixed;
+    z-index: 999;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navbar nav ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    }
+    .Navbar nav ul li 
+    {
+        display:inline-block;
+        margin: 20px;
+    }
+    
+    .Navbar nav ul li a 
+    {
+        text-decoration: none;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    .Navbar a:hover {
+        border-bottom:5px solid yellow;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+    }
+
+
+    .Home{
+        background-color: thistle;
+        display: flex;
+        height:630px;
+        padding-top: 80px;
+        position: relative; 
+    }  
+    .Home .Container .h1 {
+        margin: 0;
+        position: absolute;
+        top:15%;
+        left:2%;
+        color:wheat;
+    }
+    .Home .Container .Hello{
+        font-size: 63px;;
+    }
+    .Home .img{
+        height: 75%;
+        position: absolute;
+        right: 0%;
+        top:20%
+    }
+
+.Contain{
+    background-color:burlywood;
+    display: flex;
+    height:630px;
+    padding-top: 80px;
+    position: relative; 
+}
+
+ 
+
+ .About .Container{
+    position: absolute;
+    left:0;
+    width: 124px;
+    border: 1px solid bisque;
+    padding-bottom: 5%;
+  
+   
+} 
+
+
+ .Text{
+     width: 47%;
+     margin-left: 3%;
+    
+    font-size: 15px;
+
+    color:black;
+}
+.Text h2{
+    font-weight: 900;
+    font-size: 46px;
+}
+
+
+.ima{
+    height: 500px;
+    border-radius: 10%;
+
+width: 50%;
+display: flex;
+justify-content:flex-end;
+height: 75%;
+position: absolute;
+
+}
